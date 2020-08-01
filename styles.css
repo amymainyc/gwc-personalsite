@@ -1,0 +1,162 @@
+
+/*
+Color Scheme Colors:
+#
+#B5838D
+#BEE3DB
+#F7E1D7
+#EDAFB8
+*/
+
+/*general elements*/
+
+body,
+html {
+  height: 100%;
+  font-size: 20px; 
+  font-family: "Roboto", sans-serif; 
+  line-height: 1.5em; 
+  margin: 0em;
+  color: white;
+  background-color: #DEDBD2; 
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-family: "Roboto Mono", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: "Roboto Mono", sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+p a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*nav bar*/
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #89B0AE;
+  border-style: none;
+}
+
+li.nav {
+  float: right;
+  font-size: 15px;
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav a:hover {
+  background-color: #89B0AE;
+  color: white;
+  border: none;
+}
+
+.container {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.portfolio-container {
+  display: inline-block;
+  background: #BEE3DB;
+  width: 450px;
+  height: 500px;
+  padding: 10px, 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+img {
+  border: 10px solid #FFFFFF;
+}
+
+.portfolio-button a {
+  display: inline-block;
+  color: #89B0AE;
+  background-color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.portfolio-button a:hover {
+  background-color: #89B0AE;
+  color: white;
+  border: none;
+}
+
+
+/*-----------TEXT SECTIONS-----------*/
+
+.text-container {
+  max-width: 800px;
+  display: inline-block;
+}
+
+.text-section1 {
+  background-color: #89B0AE;
+  padding: 30px 40px;
+  margin: 0px;
+  text-align: center;
+}
+
+.text-section2 {
+  background-color: #BEE3DB;
+  padding: 20px 45px;
+  margin: 0px;
+  text-align: center;
+}
+
+.text-section3 {
+  background-color: #F7E1D7;
+  padding: 20px 45px;
+  margin: 0px;
+  text-align: center;
+}
+
+.text-section4 {
+  background-color: #EDAFB8;
+  padding: 20px 45px;
+  margin: 0px;
+  text-align: center;
+}
+
+
